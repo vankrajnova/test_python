@@ -8,7 +8,7 @@ class Application:
 
     def open_home_page(self):
         wd = self.wd
-        wd.get("http://test/addressbook/")
+        wd.get("http://www/addressbook/")
 
     def login(self, username, password):
         wd = self.wd
